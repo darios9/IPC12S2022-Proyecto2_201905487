@@ -1,11 +1,12 @@
 const express = require('express');
 const morgan = require('morgan');
+const fs = require('fs');
 var cors = require('cors')
 const app = express();
 
 
 // configuracion - seting
-app.set('appName','mi primera API');
+app.set('appName','Corriendo la API');
 app.set('json spaces',2);
 
 // middlewres
@@ -39,24 +40,25 @@ app.post('/usuario', (req,res)=>{
 app.post('/login' , (req, res) => {
 
     var usuariosapp = require('./usuarios.json');
-
+    let puev = require('./prueva.json');
     var usuarioEnviado = req.body.Usuario;
-    var passwordEnviado = req.body.Password;
+    var passwordEnviado = req.body.Pasword;
+
+    
     var arregloUsuarios = [];
 
     // BUSCA EL USUARIO EN EL ARCHIVO JSON SI EXISTE
     for (var i = 0; i < usuariosapp.length; i++) {
-        if(usuariosapp[i].Usuario == usuarioEnviado && usuariosapp[i].Password == passwordEnviado){            
+        if(usuariosapp[i].Usuario == usuarioEnviado && usuariosapp[i].Pasword == passwordEnviado){            
             arregloUsuarios.push(usuariosapp[i]);
         } 
     }
-
-
     // ESE ES EL IF PARA RESPONDERLE AL FRONTEND
     if (arregloUsuarios.length > 0) {
-        res.send(arregloUsuarios);
+       res.send(arregloUsuarios);
     } else {
         res.send({Error: "Tu usuario no existe"});
+        
     }
     
 });
