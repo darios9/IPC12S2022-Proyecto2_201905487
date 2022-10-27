@@ -1,0 +1,15 @@
+body{
+    background: lightcyan;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contenedor{
+    width: 300px;
+    margin: 100px auto;
+    background-color: antiquewhite;
+
+
+}
+.saveUsuario{
+    width: 70%;
+    float: center;
+}
