@@ -4,15 +4,15 @@
         "Nombre": "Cristiano",
         "Apellido": "Ronaldo",
         "Seleccion": "Portugal",
-        "Reginon": "Europa",
+        "Region": "Europa",
         "imagen": "https://cdn.sofifa.net/players/020/801/22_120.png"
     },
     {
         "Numero": 3,
         "Nombre": "Ruben",
-        "Apellido": "Disa",
+        "Apellido": "Dias",
         "Seleccion": "Portugal",
-        "Reginon": "Europa",
+        "Region": "Europa",
         "imagen": "https://cdn.sofifa.net/players/239/818/23_120.png"
     },
     {
@@ -20,7 +20,7 @@
         "Nombre": "Joao",
         "Apellido": "Cancelo",
         "Seleccion": "Portugal",
-        "Reginon": "Europa",
+        "Region": "Europa",
         "imagen": "https://cdn.sofifa.net/players/210/514/23_120.png"
     }
     ,
@@ -29,7 +29,7 @@
         "Nombre": "Diogo",
         "Apellido": "Teixeira",
         "Seleccion": "Portugal",
-        "Reginon": "Europa",
+        "Region": "Europa",
         "imagen": "https://cdn.sofifa.net/players/224/458/23_120.png"
     },
     {
@@ -37,7 +37,7 @@
         "Nombre": "Bernardo",
         "Apellido": "Silva",
         "Seleccion": "Portugal",
-        "Reginon": "Europa",
+        "Region": "Europa",
         "imagen": "https://cdn.sofifa.net/players/218/667/23_120.png"
     },
     {
@@ -45,7 +45,7 @@
         "Nombre": "Lautaro",
         "Apellido": "Martinez",
         "Seleccion": "Argentina",
-        "Reginon": "America",
+        "Region": "America",
         "imagen": "https://cdn.sofifa.net/players/231/478/23_120.png"
     },
     {
@@ -53,7 +53,7 @@
         "Nombre": "Ángel",
         "Apellido": "Di María",
         "Seleccion": "Argentina",
-        "Reginon": "America",
+        "Region": "America",
         "imagen": "https://cdn.sofifa.net/players/183/898/23_120.png"
     },
     {
@@ -61,7 +61,7 @@
         "Nombre": "Lionel",
         "Apellido": " Messi",
         "Seleccion": "Argentina",
-        "Reginon": "America",
+        "Region": "America",
         "imagen": "https://cdn.sofifa.net/players/158/023/23_120.png"
     }
     ,
@@ -70,7 +70,7 @@
         "Nombre": "Rodrigo",
         "Apellido": "De Paul",
         "Seleccion": "Argentina",
-        "Reginon": "America",
+        "Region": "America",
         "imagen": "https://cdn.sofifa.net/players/212/616/23_120.png"
     },
     {
@@ -78,7 +78,7 @@
         "Nombre": "Marcos",
         "Apellido": "Acuña",
         "Seleccion": "Argentina",
-        "Reginon": "America",
+        "Region": "America",
         "imagen": "https://cdn.sofifa.net/players/224/334/23_120.png"
     },
     {
@@ -86,7 +86,7 @@
         "Nombre": "Álvaro",
         "Apellido": "Morata",
         "Seleccion": "España",
-        "Reginon": "Europa",
+        "Region": "Europa",
         "imagen": "https://cdn.sofifa.net/players/201/153/23_120.png"
     },
     {
@@ -94,7 +94,7 @@
         "Nombre": "Ferran",
         "Apellido": "Torres",
         "Seleccion": "España",
-        "Reginon": "Europa",
+        "Region": "Europa",
         "imagen": "https://cdn.sofifa.net/players/241/461/23_120.png"
     },
     {
@@ -102,7 +102,7 @@
         "Nombre": "Daniel",
         "Apellido": "Carvajal",
         "Seleccion": "España",
-        "Reginon": "Europa",
+        "Region": "Europa",
         "imagen": "https://cdn.sofifa.net/players/204/963/23_120.png"
     }
     ,
@@ -111,7 +111,7 @@
         "Nombre": "Jorge",
         "Apellido": "Resurrección",
         "Seleccion": "España",
-        "Reginon": "Europa",
+        "Region": "Europa",
         "imagen": "https://cdn.sofifa.net/players/193/747/23_120.png"
     },
     {
@@ -119,7 +119,7 @@
         "Nombre": "Unai",
         "Apellido": "Simón",
         "Seleccion": "España",
-        "Reginon": "Europa",
+        "Region": "Europa",
         "imagen": "https://cdn.sofifa.net/players/230/869/23_120.png"
     },
     {
@@ -127,7 +127,7 @@
         "Nombre": "Thibaut",
         "Apellido": "Courtois",
         "Seleccion": "Belgica",
-        "Reginon": "Europa",
+        "Region": "Europa",
         "imagen": "https://cdn.sofifa.net/players/192/119/23_120.png"
     },
     {
@@ -135,7 +135,7 @@
         "Nombre": "Kevin",
         "Apellido": "De Bruyne",
         "Seleccion": "Belgica",
-        "Reginon": "Europa",
+        "Region": "Europa",
         "imagen": "https://cdn.sofifa.net/players/192/985/23_120.png"
     },
     {
@@ -143,7 +143,7 @@
         "Nombre": "Eden",
         "Apellido": "Hazard",
         "Seleccion": "Belgica",
-        "Reginon": "Europa",
+        "Region": "Europa",
         "imagen": "https://cdn.sofifa.net/players/183/277/23_120.png"
     }
     ,
@@ -152,7 +152,7 @@
         "Nombre": "Romelu",
         "Apellido": "Lukaku",
         "Seleccion": "Belgica",
-        "Reginon": "Europa",
+        "Region": "Europa",
         "imagen": "https://cdn.sofifa.net/players/192/505/23_120.png"
     },
     {
@@ -160,7 +160,7 @@
         "Nombre": "Yannick",
         "Apellido": "Carrasco",
         "Seleccion": "Belgica",
-        "Reginon": "Europa",
+        "Region": "Europa",
         "imagen": "https://cdn.sofifa.net/players/230/869/23_120.png"
     }
 

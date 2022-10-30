@@ -5,20 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </head>
 <body>
     <h1>HOME PAGE</h1>
     <div>
-        <form id="Home">
+        <form id="homeSave">
             <div>
-                <label for="usuario">Nombre Usuario</label>
+                <label for="usuario">Nombre</label>
             </div>
             <br>
             <div>
-                 <input id="Buscar" placeholder="buscar">
-                 <button>buscar</button>
-
+                 <input id="Buscar" placeholder="Buscar">
+                <button type="buton" id="miBoton" class="btn btn-primary">Buuscar</button>
+                <div>
+                    <label><input type="checkbox" id="nombre" value="Nombre" >Nombre</label><br>
+                    <input type="checkbox" id="seleccion" value="Seleccion"> <label for="cbox2">Seleccion</label><br>
+                    <input type="checkbox" id="region" value="Region">Region<label for="cbox2"></label>
+                </div>
         </form>
     </div>
 </body>
+<script src="./Home.js"></script>
 </html>

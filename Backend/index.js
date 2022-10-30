@@ -40,7 +40,6 @@ app.post('/usuario', (req,res)=>{
 app.post('/login' , (req, res) => {
 
     var usuariosapp = require('./usuarios.json');
-    let puev = require('./prueva.json');
     var usuarioEnviado = req.body.Usuario;
     var passwordEnviado = req.body.Pasword;
 
@@ -108,6 +107,28 @@ app.post('/buscarNombre' , (req, res) => {
     // ESE ES EL IF PARA RESPONDERLE AL FRONTEND
     if (arregloJugadores.length > 0) {
         res.send(arregloJugadores);
+    } else {
+        res.send({Error: "No existen stickers de esta seleccion"});
+    }
+});
+
+app.post('/buscarRegion' , (req, res) => {
+    var nombreRegion = req.body.Region;
+    console.log(nombreRegion);
+    var Jugadoresapp = require('./jugadores.json');
+
+    var arregloRegion = [];
+
+    // BUSCAR LO QUE YO QUIERO
+    for (var i = 0; i < Jugadoresapp.length; i++) {
+        if(Jugadoresapp[i].Region == nombreRegion){
+            arregloRegion.push(Jugadoresapp[i]);
+        }
+    }
+
+    // ESE ES EL IF PARA RESPONDERLE AL FRONTEND
+    if (arregloRegion.length > 0) {
+        res.send(arregloRegion);
     } else {
         res.send({Error: "No existen stickers de esta seleccion"});
     }

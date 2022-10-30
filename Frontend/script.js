@@ -8,9 +8,9 @@ formElement.addEventListener("submit",(event) => {
     let usuario1 = {"Usuario":capturaUsuario,"Pasword":capturarPasword}
 
     let usuarioJson = JSON.stringify(usuario1);
-
+    let url = "http://localhost:4000/login"
     
-    fetch("http://localhost:4000/login", {
+    fetch(url,{
         method: 'POST', // or 'PUT'
         body: usuarioJson, // data can be `string` or {object}!
         headers:{
@@ -21,7 +21,7 @@ formElement.addEventListener("submit",(event) => {
       .then(data => {
         validarLogin(data)
       })
-      //.catch(error => console.error('Error:', error))
+      .catch(error => console.error('Error:', error))
       
 
 })
