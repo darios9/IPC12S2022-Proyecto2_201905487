@@ -10,4 +10,13 @@
 * morgan
 * nodejs
 
-![image](C:\Users\DARIO SIMON\OneDrive - Facultad de Ingeniería de la Universidad de San Carlos de Guatemala\Escritorio\Proyecto-IPC1\Frontend\imagenes\Imagen1.jpg )
+## Manual de uso de la Aplicacion
+### Login 
+> en esta pagina debera ingresar su usuario y su 
+> paswor correctamente y luego presionar en el boton ingresar lo cual lo llevara a la pragina principal
+
+![image](/Frontend/imagenes/Imagen1.jpg)
+
+> Home page
+![image](/Frontend/imagenes/Imagen2.jpg)
+
