@@ -43,7 +43,7 @@ buscarRegion.addEventListener('click', function() {
 
 formElement.addEventListener("submit",(event) => {
     event.preventDefault();
-
+    panelRespuesta.innerHTML ='';
     var text1 = document.getElementById('Buscar').value;
     
     

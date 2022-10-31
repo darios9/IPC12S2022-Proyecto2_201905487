@@ -21,7 +21,7 @@ formElement.addEventListener("submit",(event) => {
       .then(data => {
         validarLogin(data)
       })
-      .catch(error => console.error('Error:', error))
+      .catch(error => alert("los datos ingresodos no existen"))
       
 
 })
