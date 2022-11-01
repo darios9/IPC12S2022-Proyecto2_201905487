@@ -21,7 +21,7 @@ formElement.addEventListener("submit",(event) => {
       .then(data => {
         validarLogin(data)
       })
-      .catch(error => alert('Error:', error))
+      .catch(error => alert('El usuari no existe'))
       
 
 })
