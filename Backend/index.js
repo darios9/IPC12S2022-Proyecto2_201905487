@@ -30,10 +30,17 @@ app.get('/', (req,res) =>{
     res.send(jugadores);
 }); 
 
-app.post('/usuario', (req,res)=>{
-    console.log(req.body);
-    var usuarios = require('./usuarios.json') ;
-    res.send(usuarios);
+app.post('/jugadores', (req,res)=>{
+    var nombreSelecion = req.body.Todos;
+    console.log(nombreSelecion)
+    var todosJugadores = require('./jugadores.json') ;
+    var verificacion = "Jugadores"
+    // ESE ES EL IF PARA RESPONDERLE AL FRONTEND
+    if ( verificacion == nombreSelecion) {
+        res.send(todosJugadores);
+    } else {
+        res.send({Error: "No existen stickers de esta seleccion"});
+    }
 });
 
 // endpoints para ingresar 

@@ -21,7 +21,7 @@ formElement.addEventListener("submit",(event) => {
       .then(data => {
         validarLogin(data)
       })
-      .catch(error => alert("los datos ingresodos no existen"))
+      .catch(error => alert('Error:', error))
       
 
 })
@@ -45,7 +45,9 @@ function validarLogin(datos){
    /* console.log(paswords[0].Pasword);*/
     console.log(datosJson[0].Error);
   for(i=0; i < paswords.length; i++){
-    if(paswords[i].Pasword == datosJson[0].Pasword){   
+    if(paswords[i].Pasword == datosJson[0].Pasword){ 
+      localStorage.setItem("nombre",datosJson[0].Usuario);
+  
      location.href = './HomePage.html';
     }
   }
